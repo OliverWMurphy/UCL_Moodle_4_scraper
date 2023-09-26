@@ -3,5 +3,24 @@ Python 3 program to scrape downloadable content off of UCL's virtual learning en
 
 Must have firefox installed to run.
 
+# Usage
+Download Script
+The main script is called scraper.py and can be called like this: python3 scraper.py [url_to scrape] [login email] [login password]
+
+usage: scraper.py url email password
+
+positional arguments:
+  url              url of the of moodle page 
+  email            email used to login to moodle
+  password         password used to login to moodle
 # Licence
 Under MIT licence. Copies of this code can be freely modified, distributed, had on toast, etc. without restriction. 
+
+# ToDo
+- General code cleaning/optimisation. 
+- Add method to download mp4 files
+- Add method to download non-directly embedded files
+- Add Chrome support.
+- Add method to preconfigure browser options
+- Fix more bugs and blindspots yet to be found
+- 
