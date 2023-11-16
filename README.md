@@ -5,7 +5,7 @@ Must have firefox installed to run.
 
 # Usage
 
-The main script is called scraper.py and can be called like this: `python3 scraper.py [url_to scrape] [login email] [login password]`
+The main script is called scraper.py and can be called by entering the following command into your terminal: `python3 scraper.py [url_to scrape] [login email] [login password]`
 
 ```
 usage: scraper.py url email password
@@ -26,4 +26,4 @@ Under MIT licence. Copies of this code can be freely modified, distributed, eate
 - Add Chrome support.
 - Add method to preconfigure browser options
 - Fix more bugs and blindspots yet to be found
-- 
+
