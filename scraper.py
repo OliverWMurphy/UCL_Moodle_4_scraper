@@ -19,7 +19,6 @@ def get_html(browser,url):
     browser.set_page_load_timeout(60)
     browser.get(url)
     html = browser.page_source
-    
     return browser,html
 
 def start_firefox(options):
@@ -86,7 +85,6 @@ def get_surface_content(browser,url):
 
 def get_subfolder_content(browser,url):
     browser,html = get_html(browser, url)
-
     
     xpath = '//a[contains(@href,"folder")]/@href'
     DOWNLOAD = (By.XPATH,'//form[@action="https://moodle.ucl.ac.uk/mod/folder/download_folder.php"]/button')
