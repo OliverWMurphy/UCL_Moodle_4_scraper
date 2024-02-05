@@ -18,7 +18,7 @@ positional arguments:
 # Licence
 Under MIT licence. Copies of this code can be freely modified, distributed, eaten for breakfast, etc. without restriction. 
 
-# ToDo
+# ToDo (This will never be done)
 - DOCUMENTATION!
 - General code cleaning/optimisation. 
 - Add method to download mp4 files
